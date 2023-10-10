@@ -1,0 +1,47 @@
+/* Card.css */
+.display-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.display {
+    background-color: #525252; /* Background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+
+.display h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.changeables {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #6f6f6f;
+}
+
+.catImage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+/* sidebar.css */
+
+.sidebar-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* The width as needed */
+    height: 100%; /* Take up 100% of the given height in its box */
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    position: fixed; /* Keep the position fixed */
+    top: 0;
+    right: 0; /* These 3 make it take up the whole of that screen */
+    bottom: 0;
+    padding: 20px;
+}
+
+/* Add styles for links or other elements within the sidebar if needed */
+.sidebar-container a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Add styles for active link if your sidebar contains navigation links */
+.sidebar-container a.active {
+    font-weight: bold;
+    color: #ff5722; /* Adjust the color for active links */
+}
+
+/* Add any other styles you need for your sidebar elements */

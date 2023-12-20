@@ -1,4 +1,4 @@
-# Web Development Project 4 - _Random Cats_
+# Web Development Project - _Random Cats_
 
 Submitted by: **Your Name Here**
 
